@@ -30,7 +30,7 @@
     "url": "https://github.com/ViveDevelopment/simple-react-clickaway#readme"
   },
   "author": "vivedevelopment",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/react": "^17.0.6",
     "@types/react-dom": "^17.0.5",
