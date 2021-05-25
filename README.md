@@ -11,7 +11,7 @@ npm i simple-react-clickaway
 Import hook
 
 ```js
-import useClickAway from 'simple-react-clickaway';
+import {useClickAway} from 'simple-react-clickaway';
 ```
 
 And use it like:

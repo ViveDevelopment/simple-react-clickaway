@@ -14,10 +14,8 @@ export const useClickAway = (ref: RefObject<HTMLDivElement>, onClickAway: () => 
   };
   useEffect(() => {
     if (!ref || !ref.current) return;
-    if (disabled)
-      document.removeEventListener('mousedown', onAway);
-    else
-      document.addEventListener('mousedown', onAway);
+    if (disabled) document.removeEventListener('mousedown', onAway);
+    else document.addEventListener('mousedown', onAway);
     return () => document.removeEventListener('mousedown', onAway);
   }, [ref.current, disabled]);
   return { disable, enable };
